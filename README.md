@@ -1,5 +1,7 @@
 # image2litematica
 
+[Download!](https://github.com/MisterSilvereagle/image2litematica/releases/download/GHG24_v001/GommeRPlaceBastiGHG2024-v001.litematic)
+
 ## How To:
 - Set FILE_PATH to the path to the construction plan image
 - Set isChunkInverted to True if the chunk borders of the construction
