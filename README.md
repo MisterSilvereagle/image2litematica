@@ -23,3 +23,11 @@ Convert any image (both already
  	generated building plan and also normal yet-to-be-converted images)
 	into a minecraft schematic that can be placed into your world as
 	2d pixelart, e.g. on minecraft r/place contests.
+
+
+
+## Info for the individual sub-programs:
+- img2array.py : Read a already finished construction plan and split it into all the different distinct blocks used. Save the individual blocks and a list of the corresponding indices to a file
+- imageFileSearcher.py : For every splitted block, search in the minecraft assets for its real name. Warning! This step requires a LOT of manual work, as the blocks do not always match and the files are sometimes named differently
+- array2schematic.py : convert the array (copy from the text file created earlier) and the corresponding blocks (manually create a dictionary from the output of the previous step) to a litematica schematic.
+- main.py : all those steps merged together, but manually is easier in my opinion.
